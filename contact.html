@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-      <!-- navigation bar -->
-      <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-expand-lg bg-light fixed-top">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand d-flex row display-2 fw-bold" href="#">Oliver's Pet Emporium</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span
-                    class="navbar-toggler-icon">
+            <a class="navbar-brand d-flex row display-2 fw-bold text-info" href="#">Oliver's Pet Emporium</a>
+            <button class="navbar-toggler text-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-info fw-bold">
                 </span>
             </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav" id="nav-list">
-                    <li class="nav-item"><a class="nav-link text-white" href="#About Me">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-info" href="#About Me">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-info" href="#Home">Home</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-<br>
+    <br>
 
 
-       <!-- forms -->
-       <div class="container py-5 bg-dark>
-        <form>
-            <label for="emailExample" class="form-label"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i> Email</label>
-            <input type="email" class="form-control" id="exampleEmail" placeholder="youremail@gmail.com">
+    <!-- forms -->
+    <div id="contact-form" class="container py-5 bg-info row">
         
-            <label for="name" class="form-label">Name:</label>
+        <form>
+            <label for="emailExample" class="form-label">
+            </label>
+            <input type="email" class="form-control" id="exampleEmail" placeholder="youremail@gmail.com">
+
+            <label for="name" class="form-label"></label>
             <input type="name" class="form-control" id="name" placeholder="Name">
 
-            <label for="subject" class="form-label">Subject:</label>
+            <label for="subject" class="form-label"></label>
             <input type="subject" class="form-control" id="subject" style="height: 140px;" placeholder="Type here">
-        </form>
+            </form>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
-<footer class="bg-dark">
+<footer>
+    <div class="bg-light bg-expand-sm footer-expand-lg w-100 text-center">
+        <p class="text-info fw-bold"><i class="fa-solid fa-house-chimney"></i> Cincinnati, Ohio, US</p>
+        <p class="text-info fw-bold"><i class="fa-solid fa-phone"></i> xxx-xxx-xxxx</p>
+        <p class="text-info fw-bold"><i class="fa-solid fa-envelope"></i> oliverjarjosa@gmail.com</p>
+    </div>
 
+    <div id="footer-list" class="container row">
+        <ul>
+            <li><a href="">Questions</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">Animal Care</a></li>
+            <li><a href="">Veterinary Offices Nearby</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">Training</a></li>
+            <li><a href="">Careers</a></li>
+        </ul>
+    </div>
 </footer>
+
 </html>

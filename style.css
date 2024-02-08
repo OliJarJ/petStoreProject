@@ -100,3 +100,20 @@ nav {
   .about-section {
     margin-top: 20rem;
   }
+
+  #footer-list li {
+    flex-wrap: wrap;
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    align-items: center;
+    text-align: center;
+  }
+
+  #contact-form {
+    align-self: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }

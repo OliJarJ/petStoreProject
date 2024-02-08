@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
     <title>Pet Store Project</title>
 </head>
 
 <body>
     <header>
         <!-- navigation bar -->
-        <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-expand-lg bg-light fixed-top">
             <div class="container px-4">
-                <a class="navbar-brand d-flex row display-2 fw-bold" href="#">Olive Branch Pet Sanctuary</a>
+                
+                <span class="navbar-brand display-2 fw-bold text-info" href="#">
+                    <i class="fa-solid fa-kiwi-bird"></i> The Curious Kiwi Pet Sanctuary</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav" id="nav-list">
-                        <li class="nav-item"><a class="nav-link text-white" href="./aboutMe.html">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="./contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="./aboutMe.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="./contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,8 +48,8 @@
         <div class="featured-block guarantee col-6-6">
             <div class="container-fluid">
                 <div class="featured-block__content row">
-                    <div class="col-sm-6 py-5 px-5 column">
-                        <h2 class="featured-block__title guarantee__title hidden-xs"
+                    <div class="col-sm-12 py-5 px-5 column">
+                        <h2 class="featured-block__title guarantee__title hidden-xs text-secondary"
                             data-template="supplemental-headline">Welcome</h2>
                         <p class="featured-block__description block guarantee__text" data-template="supplemental-p">
                             Olive Branch Pet Sanctuary is a ...Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -62,10 +64,10 @@
                             Sed arcu non odio euismod lacinia at quis risus sed. Ipsum dolor sit amet consectetur
                             adipiscing elit ut aliquam purus. Suscipit adipiscing bibendum est ultricies integer quis
                             auctor.</p>
-                        
+                        <div class="justify-content-center text-center">
                         <a type="button" href="#hero" class="btn featured-block__btn btn guarantee__btn bg-info"
                             data-template="info-cta-desktop">Start Now</a>
-                       
+                        </div>
                     </div>
                     <br>
                     <!--img first section  -->
@@ -123,7 +125,7 @@
                                 be
                                 adopted by someone who will properly love and care for them. Come by our storefront and
                                 say
-                                hello, or feel free to browse our pet profiles <a href="./aboutMe.html">here</a>.
+                                hello, or feel free to browse our pet profiles <a href="./aboutMe.html" class="fw-bolder">here</a>.
                             </p>
                         </div>
                     </div>
@@ -132,7 +134,7 @@
                     <!--cards-->
                 
                 <div class="block" id="block1">
-                        <h3 class="my-4 display-6">
+                        <h3 class="my-2 display-3">
                             We're Available for Adoption </h3>
                         <div class="row m-5 align-items-center justify-content-center">
 
@@ -224,13 +226,13 @@
 
                 <!-- leave a note
          -->
-                <hr>
+                <!-- <hr>
                 <div class="row">
                     <div class="col-md-3 bg-dark my-2">
                         <p class="text-white"><i class="fa-solid fa-house-chimney"></i> Cincinnati, Ohio, US</p>
                         <p class="text-white"><i class="fa-solid fa-phone"></i> xxx-xxx-xxxx</p>
                         <p class="text-white"><i class="fa-solid fa-envelope"></i> oliverjarjosa@gmail.com</p>
-                    </div>
+                    </div> -->
 
                     <!--forms
 <div class="col-md-8 px-4">
@@ -257,13 +259,24 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
                     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity=" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </body>
 
 <!-- footer -->
 
 <footer >
-    <div class="bg-dark bg-expand-sm bg-expand-lg w-100">
-        <h1 class="text-white">Footer</h1>
+    <div class="bg-light bg-expand-sm footer-expand-lg w-100 text-center">
+                <p class="text-info fw-bold"><i class="fa-solid fa-house-chimney"></i> Cincinnati, Ohio, US</p>
+                <p class="text-info fw-bold"><i class="fa-solid fa-phone"></i> xxx-xxx-xxxx</p>
+                <p class="text-info fw-bold"><i class="fa-solid fa-envelope"></i> oliverjarjosa@gmail.com</p>
+    </div>
+
+    <div class="block">
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
     </div>
 </footer>
 

@@ -1,3 +1,31 @@
+/* Create 2 equal columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*mission statement section*/
+/* Create 2 equal columns that float next to each other */
+.column1 {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 ul {
 display:inline;
 }
@@ -8,30 +36,67 @@ nav {
 }
 
 .masthead {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: url("./kateryna-hliznitsova-uVPh6P6sDeo-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  /* padding: 15rem 0; */
+  background: url("./kateryna-hliznitsova-uVPh6P6sDeo-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   }
 
   ul {
     text-align: left;
   }
 
-  #about {
+  /* #about {
     margin-bottom: 20px;
 
-  }
+  } */
 
   .cardContainer {
+    display:grid;
     flex-direction:row;
     justify-content: center;
+  }
 
+  .fa-solid {
+   display: flex;
+    position: fixed;
+    justify-content: left;
+    align-items: flex-start;
+    content: icon;
+  }
 
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ /* Style the footer */
+.footer {
+
+  margin-top: auto;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+
+  #rabbit-photo {
+   padding-top: 150px;
+  }
+
+  #mission {
+    margin-top: 10rem;
+  }
+
+  .about-section {
+    margin-top: 20rem;
   }

@@ -1,6 +1,6 @@
 /* Create 2 equal columns that float next to each other */
 .column {
-  float: left;
+  float: right;
   width: 50%;
 }
 
@@ -71,16 +71,16 @@ nav {
   }
 
   body {
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    background-color: aliceblue;
+    /* flex-direction: column; */
   }
   
  /* Style the footer */
 .footer {
 
   margin-top: auto;
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
     bottom: 0;
   }
@@ -90,7 +90,11 @@ nav {
   }
 
   #rabbit-photo {
-   padding-top: 150px;
+   display:block;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+
   }
 
   #mission {
@@ -104,7 +108,6 @@ nav {
   #footer-list li {
     flex-wrap: wrap;
     list-style: none;
-    float: left;
     width: 33.33%;
     align-items: center;
     text-align: center;
@@ -114,6 +117,9 @@ nav {
     align-self: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
+  }
+
+  #dark-box {
+    margin-top: 15rem;
+    margin-left: 4rem;
   }

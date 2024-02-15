@@ -13,9 +13,9 @@ nav {
 .masthead {
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 45rem;
   /* padding: 15rem 0; */
-  background: url("./kateryna-hliznitsova-uVPh6P6sDeo-unsplash.jpg");
+  background: url("./andrew-pons-QsmGE0P2-B8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -63,7 +63,7 @@ nav {
   }
 
   #mission {
-    margin-top: 10rem;
+    
   }
 
   .about-section {
@@ -80,7 +80,7 @@ nav {
     #contact-form {
       top: 50%; 
       box-shadow: 0 0 20px 0; 
-      background: inherit; 
+       
       backdrop-filter: blur(30px); 
       margin: 100px; 
       text-align: center; 
@@ -102,21 +102,21 @@ nav {
 
 
 /*mission statement section*/
-/* Create 2 equal columns that float next to each other */
-.column1 {
+Create 2 equal columns that float next to each other
+/* .column1 {
   float: right;
   width: 50%;
-}
+} */
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
   /* footer edits */
-  #footer {
+  /* #footer {
     height: 50vh;
     margin-bottom: 0;
 
@@ -126,16 +126,29 @@ nav {
     text-align: center;
     justify-content: center;
     /* columns: 33.33%; */
-    list-style-type: none;
-   
-  }
+    /* list-style-type: none; */
+/*    
+  } */
   /* ul{
     list-style-type: none;
     display: flex;
   } */
 
-  #footLinks{
+  /* #footLinks{
     display: flex;
     justify-content: space-evenly;
 
+  /* } */ */ */
+
+  #footer {
+    height: 50vh;
+    display:flex;
+    align-items: center;
   }
+  #footer-list {
+    width: 100%;
+}
+#footLinks {
+ display: flex;
+ justify-content: space-evenly ;
+}

@@ -1,30 +1,4 @@
-/* Create 2 equal columns that float next to each other */
-.column {
-  float: right;
-  width: 50%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/*mission statement section*/
-/* Create 2 equal columns that float next to each other */
-.column1 {
-  float: right;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* ul {
 display:inline;
@@ -32,6 +6,7 @@ display:inline;
 
 nav {
     position:sticky;
+    height: 4rem;
 
 }
 
@@ -72,18 +47,8 @@ nav {
 
   body {
     display: flex;
-    background-color: aliceblue;
-    /* flex-direction: column; */
+     flex-direction: column; 
   }
-  
- /* Style the footer */
-/* .footer { */
-
-  /* margin-top: auto;
-    /* height: 50px; */
-    /* width: 100%;
-    bottom: 0; */ */
-  /* } */
 
   h2, h3 {
     text-align: center;
@@ -94,7 +59,7 @@ nav {
    margin-bottom: 1rem;
    margin-left: 1rem;
    margin-right: 1rem;
-
+  
   }
 
   #mission {
@@ -105,29 +70,72 @@ nav {
     margin-top: 20rem;
   }
 
-
+/* box with 'Don't be shy */
   #dark-box {
     margin-top: 15rem;
     margin-left: 4rem;
   }
-
-  .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  }
-
-  #footer-list li {
-    flex-wrap: wrap;
-    list-style: none;
-    width: 33.33%;
-    align-items: center;
-    text-align: center;
-  }
-
   
-  #contact-form {
-    align-self: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  /* contact form contact page */
+    #contact-form {
+      top: 50%; 
+      box-shadow: 0 0 20px 0; 
+      background: inherit; 
+      backdrop-filter: blur(30px); 
+      margin: 100px; 
+      text-align: center; 
+      align-self: center;
+  }
+
+  /* Create 2 equal columns that float next to each other */
+.column {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*mission statement section*/
+/* Create 2 equal columns that float next to each other */
+.column1 {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* footer edits */
+  #footer {
+    height: 50vh;
+    margin-bottom: 0;
+
+  }
+
+  #footer-list {
+    text-align: center;
+    justify-content: center;
+    /* columns: 33.33%; */
+    list-style-type: none;
+   
+  }
+  /* ul{
+    list-style-type: none;
+    display: flex;
+  } */
+
+  #footLinks{
+    display: flex;
+    justify-content: space-evenly;
+
   }

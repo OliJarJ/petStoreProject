@@ -1,9 +1,5 @@
 
 
-/* ul {
-display:inline;
-} */
-
 nav {
     position:sticky;
     height: 4rem;
@@ -26,10 +22,6 @@ nav {
     text-align: left;
   }
 
-  /* #about {
-    margin-bottom: 20px;
-
-  } */
 
   .cardContainer {
     display:grid;
@@ -45,35 +37,28 @@ nav {
     content: icon;
   }
 
-  body {
+  /* body {
     display: flex;
-     flex-direction: column; 
-  }
+    flex-direction: column; 
+  }  */
 
-  h2, h3 {
-    text-align: center;
-  }
-
-  #rabbit-photo {
-   display:block;
-   margin-bottom: 1rem;
-   margin-left: 1rem;
-   margin-right: 1rem;
+ 
+   #rabbit-photo {
+   flex-direction: column;
+   display:;
   
-  }
+  } 
 
-  #mission {
-    
-  }
-
+ 
   .about-section {
-    margin-top: 20rem;
+    margin-top: 10rem;
   }
 
 /* box with 'Don't be shy */
   #dark-box {
     margin-top: 15rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
   }
   
   /* contact form contact page */
@@ -87,58 +72,33 @@ nav {
       align-self: center;
   }
 
-  /* Create 2 equal columns that float next to each other */
+  /* Left column - about black block box and paragraph */
 .column {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 40%;
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  display: table; 
   clear: both;
 }
 
 
-/*mission statement section*/
-Create 2 equal columns that float next to each other
-/* .column1 {
+/*Rabbit Photo*/
+/*Right column*/
+ .column1 {
   float: right;
-  width: 50%;
-} */
+  width: 60%;
+} 
 
 /* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-  /* footer edits */
-  /* #footer {
-    height: 50vh;
-    margin-bottom: 0;
-
-  }
-
-  #footer-list {
-    text-align: center;
-    justify-content: center;
-    /* columns: 33.33%; */
-    /* list-style-type: none; */
-/*    
-  } */
-  /* ul{
-    list-style-type: none;
-    display: flex;
-  } */
-
-  /* #footLinks{
-    display: flex;
-    justify-content: space-evenly;
-
-  /* } */ */ */
+ /* .row:after { */
+  /* content: "";
+  display: table; */
+  /* clear: both; */
+/* }  */
 
   #footer {
     height: 50vh;
@@ -151,4 +111,17 @@ Create 2 equal columns that float next to each other
 #footLinks {
  display: flex;
  justify-content: space-evenly ;
+}
+
+#mission-h3 {
+line-height: 4rem;
+/* display: flex;} */
+
+h3 {
+  display:flex;
+  flex-direction: inherit;
+}
+
+div.p {
+  
 }

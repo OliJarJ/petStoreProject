@@ -36,19 +36,11 @@ nav {
     align-items: flex-start;
     content: icon;
   }
-
-  /* body {
-    display: flex;
-    flex-direction: column; 
-  }  */
-
  
    #rabbit-photo {
    flex-direction: column;
-   display:;
   
   } 
-
  
   .about-section {
     margin-top: 10rem;
@@ -56,9 +48,8 @@ nav {
 
 /* box with 'Don't be shy */
   #dark-box {
-    margin-top: 15rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    justify-content: center;
+    flex-direction: row;
   }
   
   /* contact form contact page */
@@ -71,34 +62,6 @@ nav {
       text-align: center; 
       align-self: center;
   }
-
-  /* Left column - about black block box and paragraph */
-.column {
-  float: left;
-  width: 40%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table; 
-  clear: both;
-}
-
-
-/*Rabbit Photo*/
-/*Right column*/
- .column1 {
-  float: right;
-  width: 60%;
-} 
-
-/* Clear floats after the columns */
- /* .row:after { */
-  /* content: "";
-  display: table; */
-  /* clear: both; */
-/* }  */
 
   #footer {
     height: 50vh;
@@ -116,12 +79,25 @@ nav {
 #mission-h3 {
 line-height: 4rem;
 /* display: flex;} */
+}
 
 h3 {
   display:flex;
   flex-direction: inherit;
 }
 
-div.p {
-  
+/* .column {
+  float: right;
+  width: 50%;
+} */
+
+.display {
+ justify-content: space-between;
+ align-content: center;
+ margin-top: 10rem;
+ margin-bottom: 15rem;
+}
+
+#adoption-page-btn {
+  margin-bottom: 5rem;
 }

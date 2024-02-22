@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="contact-body">
 
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-sm navbar-expand-lg bg-dark fixed-top">
@@ -36,11 +36,10 @@
 
 
     <!-- forms -->
-    
-    <div id="contact-form" class="container-fluid py-5 justify-content-center bg-dark">
+    <div class="container-fluid">
+    <div id="contact-form" class="column" style="background-color: rgba(0, 0, 0, 0.808); display:inline-block;">
         <div class="row">
-        
-        <form class="form-group">
+        <form class="form-group py-4 px-5 col-12">
             <h3 class="text-info">Leave us a message!</h3>
             <label for="emailExample" class="form-label">
             </label>
@@ -51,9 +50,12 @@
 
             <label for="subject" class="form-label"></label>
             <input type="subject" class="form-control" id="subject" style="height: 140px;" placeholder="Type here">
+
+            <button id="contact-submit" class="btn btn-primary my-4 text-center" type="submit">Submit</button>
             </form>
         </div>
     </div>
+</div>
 
 
 <!--footer-->

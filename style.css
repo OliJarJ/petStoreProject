@@ -78,11 +78,6 @@ display:flex;
 flex-direction: inherit;
 }
 
-/* .column {
-float: right;
-width: 50%;
-} */
-
 .display {
 justify-content: space-between;
 align-content: center;
@@ -96,12 +91,6 @@ margin-bottom: 5rem;
 
 #brown-dog {
 background-size: cover;
-}
-
-#form-group {
-display: flex;
-position:relative;
-margin: 0 auto;
 }
 
 /* contact form contact page */
@@ -131,12 +120,11 @@ box-sizing: border-box;
 
 /* Create two equal columns that floats next to each other */
 #left {
-float: left;
+float: right;
 width: 50%;
 padding: 10px;
 height: 400px;
 }
-
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -145,20 +133,24 @@ clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 .column {
   width: 100%;
 }
-}
+} */
 
 #pitbull-img {
-display: ;
-float: right;
-padding-left: 20rem;
-padding-bottom: 20rem;
-padding-top: 15rem;
+position:relative;
+
 }
 
 #animalvid-cont {
-margin-top: 8rem;
+margin-top: 2rem;
+justify-self: center;
 }
+
+#form-group {
+  display: flex;
+  position:relative;
+  margin: 0 auto;
+  }

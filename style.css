@@ -54,7 +54,7 @@ background-size: cover;
 }
 
 #footer {
-  height: 50vh;
+  height: 20vh;
   display:flex;
 align-items: center;
 
@@ -68,9 +68,8 @@ justify-content: space-evenly ;
 list-style: none;
 }
 
-#mission-h3 {
-line-height: 4rem;
-/* display: flex;} */
+#mission {
+margin-bottom:10vh;
 }
 
 h3 {
@@ -153,4 +152,11 @@ justify-self: center;
   display: flex;
   position:relative;
   margin: 0 auto;
+  }
+
+  /*logos bottom of page*/
+  #awards-list {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
   }

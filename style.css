@@ -1,72 +1,71 @@
-
 /*Navigation*/
 nav {
-    position:sticky;
-    height: 6rem;
+  position:sticky;
+  height: 6rem;
 
 }
 
 /* Masthead */
 .masthead {
-  width: 100%;
-  height: auto;
-  min-height: 45rem;
-  /* padding: 15rem 0; */
-  background: url("./yulia-vambold-iVliB6Rsvvc-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  }
+width: 100%;
+height: auto;
+min-height: 45rem;
+/* padding: 15rem 0; */
+background: url("./yulia-vambold-iVliB6Rsvvc-unsplash.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
 
-  /* ul {
-    text-align: left;
-  } */
+/* ul {
+  text-align: left;
+} */
 
 /* Cards */
-  .cardContainer {
-    display:grid;
-    flex-direction:row;
-    justify-content: center;
-  }
+.cardContainer {
+  display:grid;
+  flex-direction:row;
+  justify-content: center;
+}
 
-  .fa-solid {
-   display: flex;
-    position: fixed;
-    justify-content: left;
-    align-items: flex-start;
-    content: icon;
-  }
- 
-  /* Rabit photo in center column */
-   #rabbit-photo {
-   flex-direction: column;
-  
-  } 
- 
-  .about-section {
-    margin-top: 10rem;
-  }
+.fa-solid {
+ display: flex;
+  position: fixed;
+  justify-content: left;
+  align-items: flex-start;
+  content: icon;
+}
+
+/* Rabit photo in center column */
+ #rabbit-photo {
+ flex-direction: column;
+
+} 
+
+.about-section {
+  margin-top: 10rem;
+}
 
 /* box with 'Don't be shy */
-  #dark-box {
-    justify-content: center;
-    flex-direction: row;
-  }
+#dark-box {
+  justify-content: center;
+  flex-direction: row;
+}
 
-  #footer {
-    height: 50vh;
-    display:flex;
-  align-items: center;
-  
-  }
-  #footer-list {
-    width: 100%;
+#footer {
+  height: 50vh;
+  display:flex;
+align-items: center;
+
+}
+#footer-list {
+  width: 100%;
 }
 #footLinks {
- display: flex;
- justify-content: space-evenly ;
- list-style: none;
+display: flex;
+justify-content: space-evenly ;
+list-style: none;
 }
 
 #mission-h3 {
@@ -75,45 +74,45 @@ line-height: 4rem;
 }
 
 h3 {
-  display:flex;
-  flex-direction: inherit;
+display:flex;
+flex-direction: inherit;
 }
 
 /* .column {
-  float: right;
-  width: 50%;
+float: right;
+width: 50%;
 } */
 
 .display {
- justify-content: space-between;
- align-content: center;
- margin-top: 10rem;
- margin-bottom: 15rem;
+justify-content: space-between;
+align-content: center;
+margin-top: 10rem;
+margin-bottom: 15rem;
 }
 
 #adoption-page-btn {
-  margin-bottom: 5rem;
+margin-bottom: 5rem;
 }
 
 #brown-dog {
-  background-size: cover;
+background-size: cover;
 }
 
 #form-group {
-  display: flex;
-  position:relative;
-  margin: 0 auto;
+display: flex;
+position:relative;
+margin: 0 auto;
 }
 
-  /* contact form contact page */
-  #contact-form {
-    top: 50%; 
-    box-shadow: 0 0 20px 0; 
-    backdrop-filter: blur(30px); 
-    margin: 100px; 
-    text-align: left; 
-    width: 20rem;
-    zoom: 1;
+/* contact form contact page */
+#contact-form {
+  top: 50%; 
+  box-shadow: 0 0 20px 0; 
+  backdrop-filter: blur(30px); 
+  margin: 100px; 
+  text-align: left; 
+  width: 20rem;
+  zoom: 1;
 filter: alpha(opacity=50);
 opacity: 0.85;
 overflow: wrap;
@@ -121,39 +120,39 @@ overflow: wrap;
 
 #contact-body {
 background-image: url(./bro-takes-photos-icbIz96hTkI-unsplash.jpg);
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* Create two equal columns that floats next to each other */
 #left {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 400px;
+float: left;
+width: 50%;
+padding: 10px;
+height: 400px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.column {
+  width: 100%;
+}
 }
 
 #pitbull-img {
-  display: ;
+display: ;
 float: right;
 padding-left: 20rem;
 padding-bottom: 20rem;
@@ -161,5 +160,5 @@ padding-top: 15rem;
 }
 
 #animalvid-cont {
-  margin-top: 8rem;
+margin-top: 8rem;
 }

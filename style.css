@@ -29,6 +29,10 @@ background-size: cover;
   justify-content: center;
 }
 
+#header{
+  margin-top: 20vh;
+}
+
 .fa-solid {
  display: flex;
   position: fixed;
@@ -157,6 +161,6 @@ justify-self: center;
   /*logos bottom of page*/
   #awards-list {
     list-style: none;
-    display: inline-flex;
     justify-content: space-evenly;
+    align-items: center;
   }

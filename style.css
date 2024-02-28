@@ -24,9 +24,9 @@ background-size: cover;
 
 /* Cards */
 .cardContainer {
-  display:grid;
   flex-direction:row;
   justify-content: center;
+  display: inline-block;
 }
 
 #header{
@@ -42,10 +42,12 @@ background-size: cover;
 }
 
 /* Rabit photo in center column */
- #rabbit-photo {
- flex-direction: column;
- width: 50%;
-
+ #rabbit {
+ border-radius: 50%;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
 } 
 
 .about-section {
@@ -83,7 +85,6 @@ body {
   flex-direction:column; 
   min-height: 100vh;
   display: flex;
-
 }
 
 #footLinks {
@@ -170,6 +171,8 @@ position:relative;
 #animalvid-cont {
 margin-top: 2rem;
 justify-self: center;
+margin-left: 18rem;
+margin-right: 20rem;
 }
 
 #form-group {
@@ -183,6 +186,7 @@ justify-self: center;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5rem;
   }
 
   /*Appled to app.js*/
@@ -191,3 +195,20 @@ justify-self: center;
     display:flex;
     
   }
+
+ .black-box {
+  margin-left: 5rem;
+  margin-top: 10rem;
+ }
+
+ /*Fade in Text - aboutMe*/
+ .fade-in-text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:small;
+  animation: fadeIn 8s;
+ }
+
+ @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity: 1; }
+ }

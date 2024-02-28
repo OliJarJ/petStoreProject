@@ -44,6 +44,7 @@ background-size: cover;
 /* Rabit photo in center column */
  #rabbit-photo {
  flex-direction: column;
+ width: 50%;
 
 } 
 
@@ -56,19 +57,39 @@ background-size: cover;
   justify-content: center;
   flex-direction: row;
 }
+/*Shop page footer*/
+#shop-footer {
+  height: 20vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+/*End shop page footer*/
+
 
 #footer {
   height: 20vh;
-  display:flex;
-align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+body {
+  flex-direction:column; 
+  min-height: 100vh;
+  display: flex;
 
 }
-#footer-list {
-  width: 100%;
-}
+
 #footLinks {
 display: flex;
-justify-content: space-evenly ;
+justify-content: space-evenly;
+padding-top: 5rem;
 list-style: none;
 }
 
@@ -126,7 +147,6 @@ box-sizing: border-box;
 float: right;
 width: 50%;
 padding: 10px;
-height: 400px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -163,4 +183,11 @@ justify-self: center;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  /*Appled to app.js*/
+
+  #addtocart-btn {
+    display:flex;
+    
   }

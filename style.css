@@ -211,3 +211,16 @@ margin-right: 20rem;
   0% {opacity:0;}
   100% {opacity: 1; }
  }
+
+
+ /*Fade in Text - first paragraph - Home page*/
+ .fade-in-text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:small;
+  animation: fadeIn 8s;
+ }
+
+ @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity: 1; }
+ }

@@ -86,11 +86,20 @@ var postHTML = " "
 
 
 
+// for (var i = 0; i < shop.length; i++) {
+//   var heading = '<div class="col-3 mt-5 d-flex" ' + '"><span class="text-center"><h3 class="justify-content-center fw-bolder" style="font-family: Aoboshi One">' + shop[i].title + '</h3>'
+//   var image = '<img class="img-fluid justify-content-center marketIMG py-4 px-4" src="' + shop[i].image + '"/>'
+//   var price = '<p class="price text-black fw-bold"> $' + shop[i].price + '</p></span>'
+//   var description = '<p class="text-center">' + shop[i].description + '</p><button id="addtocart-btn" type="button" class="btn btn-info"> add to cart</button></div>'
+//   var concatThis = heading + image + price + description;
+//   postHTML = postHTML + concatThis
+// }
+
 for (var i = 0; i < shop.length; i++) {
-  var heading = '<div class="col-3 mt-5" ' + '"><span class="text-center"><h3 class="justify-content-center fw-bolder" style="font-family: Aoboshi One">' + shop[i].title + '</h3>'
-  var image = '<img class="img-fluid justify-content-center marketIMG py-4 px-4" src="' + shop[i].image + '"/>'
-  var price = '<p class="price text-black fw-bold"> $' + shop[i].price + '</p></span>'
-  var description = '<p class="text-center">' + shop[i].description + '</p><button id="addtocart-btn" type="button" class="btn btn-primary"> add to cart</button></div>'
+  var heading = '<div class="card col-4 mt-5 justify-content-center text-center d-flex justify-items-center" ' + '"><div class="card-body d-flex flex-column"><h3 class="justify-content-center fw-bolder card-title " style="font-family: Aoboshi One">' + shop[i].title + '</h3>'
+  var image = '<img class="card-img-top img-fluid justify-content-center marketIMG py-4 px-4" src="' + shop[i].image + '"/>'
+  var price = '<p class="price text-black fw-bold card-text"> $' + shop[i].price + '</p></span>'
+  var description = '<p class="text-center">' + shop[i].description + '</p><button id="addtocart-btn" type="button" class="btn btn-info mt-auto"> add to cart</button></div></div>'
   var concatThis = heading + image + price + description;
   postHTML = postHTML + concatThis
 }

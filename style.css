@@ -11,7 +11,7 @@ width: 100%;
 height: auto;
 min-height: 45rem;
 /* padding: 15rem 0; */
-background: url("./yulia-vambold-iVliB6Rsvvc-unsplash.jpg");
+background: url("./img/andreea-popa-6ST6S6i9IGM-unsplash.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: scroll;
@@ -58,6 +58,7 @@ background-size: cover;
 #dark-box {
   justify-content: center;
   flex-direction: row;
+  box-shadow: 5px 5px 12px gray;
 }
 /*Shop page footer*/
 #shop-footer {
@@ -74,6 +75,16 @@ background-size: cover;
 
 #footer {
   height: 20vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+/*Contact page footer*/
+#footer {
+  height: auto;
   padding-top: 0;
   padding-bottom: 0;
   bottom: 0;
@@ -120,7 +131,6 @@ background-size: cover;
 /* contact form contact page */
 #contact-form {
   top: 50%; 
-  box-shadow: 0 0 20px 0; 
   backdrop-filter: blur(30px); 
   margin: 100px; 
   text-align: left; 
@@ -129,13 +139,15 @@ background-size: cover;
 filter: alpha(opacity=50);
 opacity: 0.85;
 overflow: wrap;
+box-shadow: 5px 5px 12px gray;
 }
 
 #contact-body {
-background-image: url(./bro-takes-photos-icbIz96hTkI-unsplash.jpg);
+background-image: url(./img/bro-takes-photos-icbIz96hTkI-unsplash.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+min-height: 100vh;
 }
 
 * {
@@ -190,10 +202,10 @@ margin-right: 20rem;
 
   /*Appled to app.js*/
 
-  #addtocart-btn {
-    display:flex;
-    
-  }
+  /* #addtocart-btn {
+    display: flex;
+align-self: flex-end;
+  } */
 
  .black-box {
   margin-left: 5rem;
@@ -224,3 +236,29 @@ margin-right: 20rem;
   0% {opacity:0;}
   100% {opacity: 1; }
  }
+
+
+ /*Contact phone edits*/
+ #subject {
+  height: 100px;
+  width: 25rem;
+}
+
+#exampleEmail {
+  height: 50px;
+  width: 25rem;
+}
+
+#name {
+  height: 50px;
+  width: 25rem;
+}
+
+/*aboutMe page card edits*/
+
+#card1 {
+  box-shadow: 5px 10px 14px gray;
+}
+#card2 {
+  box-shadow: 5px 10px 14px gray;
+}

@@ -262,3 +262,72 @@ align-self: flex-end;
 #card2 {
   box-shadow: 5px 10px 14px gray;
 }
+
+
+/*Landing page - Rabbit Photo*/
+ /*CSS for animation */
+ @keyframes floatAnimation {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/* Apply animation to the image */
+#rabbit {
+  animation: floatAnimation 3s infinite;
+}
+
+/*Nav*/
+ /*Navbar*/
+ .navbar {
+  height: 80px; /* Increased height */
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold; /* Make navlinks bolder */
+  font-family: Arial, sans-serif; /* Change font-family */
+} 
+
+.navbar {
+background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
+position: sticky; /* Sticky navbar */
+top: 0; /* Position at the top of the viewport */
+z-index: 1000; /* Ensure navbar stays on top */
+transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.navbar-brand {
+font-weight: bold;
+color: #fff; /* Brighter color for brand */
+}
+
+.navbar-nav .nav-link {
+color: #fff; /* Brighter color for nav links */
+}
+
+.navbar-nav .nav-link:hover {
+color: #ffc107; /* Standout color on hover */
+}
+
+/* Smooth animation for dropdown */
+@keyframes slideDown {
+from {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.navbar-collapse {
+animation: slideDown 0.5s ease;
+}

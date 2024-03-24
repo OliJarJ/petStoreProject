@@ -1,9 +1,9 @@
 /*Navigation*/
-nav {
+/* nav {
   position:sticky;
   height: 6rem;
 
-}
+} */
 
 /* Masthead */
 .masthead {
@@ -167,13 +167,6 @@ display: table;
 clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
-.column {
-  width: 100%;
-}
-} */
-
 #pitbull-img {
 position:relative;
 
@@ -200,12 +193,6 @@ margin-right: 20rem;
     padding-top: 5rem;
   }
 
-  /*Appled to app.js*/
-
-  /* #addtocart-btn {
-    display: flex;
-align-self: flex-end;
-  } */
 
  .black-box {
   margin-left: 5rem;
@@ -283,7 +270,6 @@ align-self: flex-end;
   animation: floatAnimation 3s infinite;
 }
 
-/*Nav*/
  /*Navbar*/
  .navbar {
   height: 80px; /* Increased height */
@@ -293,27 +279,6 @@ align-self: flex-end;
   font-weight: bold; /* Make navlinks bolder */
   font-family: Arial, sans-serif; /* Change font-family */
 } 
-
-.navbar {
-background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
-position: sticky; /* Sticky navbar */
-top: 0; /* Position at the top of the viewport */
-z-index: 1000; /* Ensure navbar stays on top */
-transition: background-color 0.3s ease; /* Smooth transition for background color */
-}
-
-.navbar-brand {
-font-weight: bold;
-color: #fff; /* Brighter color for brand */
-}
-
-.navbar-nav .nav-link {
-color: #fff; /* Brighter color for nav links */
-}
-
-.navbar-nav .nav-link:hover {
-color: #ffc107; /* Standout color on hover */
-}
 
 /* Smooth animation for dropdown */
 @keyframes slideDown {
@@ -329,5 +294,36 @@ to {
 }
 
 .navbar-collapse {
-animation: slideDown 0.5s ease;
+animation: slideDown 0.3s ease;
 }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
+  position: sticky; /* Sticky navbar */
+  top: 0; /* Position at the top of the viewport */
+  z-index: 1000; /* Ensure navbar stays on top */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff; /* Brighter color for brand */
+    }
+    
+    .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px; /*Brighter color for nav links*/ 
+    }
+    
+  .nav-link:hover {
+    color: #ffc107 !important; /* Standout color on hover */
+    }
+
+    .custom-toggler.navbar-toggler{
+      border-color: red;
+    }
+
+    .custom-toggler .navbar-toggler-icon{
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(0, 158, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
+    }

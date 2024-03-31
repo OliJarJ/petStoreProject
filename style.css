@@ -108,10 +108,10 @@ list-style: none;
 margin-bottom:10vh;
 }
 
-h3 {
+/* h3 {
 display:flex;
 flex-direction: inherit;
-}
+} */
 
 .display {
 justify-content: space-between;

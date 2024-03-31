@@ -96,7 +96,7 @@ var postHTML = " "
 // }
 
 for (var i = 0; i < shop.length; i++) {
-  var heading = '<div class="card col-3 mt-5 mx-2 d-flex justify-items-center shop-page" ' + '"><div class="card-body d-flex flex-column"><h3 class="justify-content-center fw-bold card-title" style="font-family: Aoboshi One"; color: gray;>' + shop[i].title + '</h3>'
+  var heading = '<div class="card col-3 col-xs-12 col-sm-12 mt-5 mx-2 d-flex justify-items-center shop-page" ' + '"><div class="card-body d-flex flex-column"><h3 class="justify-content-center fw-bold card-title" style="font-family: Aoboshi One"; color: gray;>' + shop[i].title + '</h3>'
   var image = '<img class="card-img-top img-fluid justify-content-center marketIMG py-4 px-4" src="' + shop[i].image + '"/>'
   var price = '<p class="price text-black fw-bold card-text text-center"> $' + shop[i].price + '</p></span>'
   var description = '<p class="text-center">' + shop[i].description + '</p><button id="addtocart-btn" type="button" class="btn btn-info mt-auto"> add to cart</button></div></div>'
